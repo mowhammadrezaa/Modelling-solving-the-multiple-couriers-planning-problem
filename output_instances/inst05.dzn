@@ -1,0 +1,17 @@
+% MCP DATA
+
+% Set data parameters
+m = 2; % Number of couriers
+n = 3; % Number of items
+capacity = [30, 18]; % Courier capacities
+itemSize = [20, 17, 6]; % Item sizes
+distanceMatrix = [|0, 21, 86, 99
+                  |21, 0, 71, 80
+                  |92, 71, 0, 61
+                  |59, 80, 61, 0
+                  |];
+is_symmetric = false;
+min_used_capacities = [25, 13];
+max_used_capacities = [30, 18];
+min_durations = [2, 1];
+max_durations = [3, 2];
