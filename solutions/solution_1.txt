@@ -1,0 +1,7 @@
+assignment = [4, 3, 1, 2, 5, 6];
+start = [1, 4];
+end = [3, 6];
+used_capacity = [14, 10];
+duration = [3, 3];
+distance_traveled = [14, 14];
+_objective = 14;
